@@ -7,7 +7,10 @@ module ShowImportantProjects
     included do
       unloadable
       has_one :important_project, dependent: :destroy
-      alias_attribute :important, :important_project
+    end
+
+    def important?
+      important_project.try(:is_important?)
     end
   end
 end
