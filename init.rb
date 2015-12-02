@@ -1,3 +1,4 @@
+require 'show_important_projects/hooks'
 require 'show_important_projects/project_patch'
 
 Redmine::Plugin.register :show_important_projects do

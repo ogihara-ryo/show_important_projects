@@ -7,6 +7,8 @@ module ShowImportantProjects
     included do
       unloadable
       has_one :important_project, dependent: :destroy
+      safe_attributes :important_project_attributes
+      accepts_nested_attributes_for :important_project
     end
 
     def important?
