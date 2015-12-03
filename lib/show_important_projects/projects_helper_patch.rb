@@ -25,7 +25,7 @@ module ShowImportantProjects
         s << '</div></li>'
       end
       s << '</ul>'
-      s << "<hr style='margin: 24px 0;' />"
+      s << "<hr id='break_important_projects' style='margin: 24px 0;' />"
     end
   end
 end
