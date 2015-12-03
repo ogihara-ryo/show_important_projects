@@ -1,5 +1,6 @@
-require 'show_important_projects/hooks'
-require 'show_important_projects/project_patch'
+Dir[File.expand_path('../lib/show_important_projects', __FILE__) << '/*.rb'].each do |file|
+  require_dependency file
+end
 
 Redmine::Plugin.register :show_important_projects do
   name 'Show Important Projects plugin'
