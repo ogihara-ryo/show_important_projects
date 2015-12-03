@@ -11,6 +11,7 @@ module ShowImportantProjects
     def render_project_hierarchy_with_show_important_projects(projects)
       s = render_important_projects
       s << render_project_hierarchy_without_show_important_projects(projects)
+      s << javascript_include_tag('move_head2_tag', plugin: 'show_important_projects')
       s.html_safe
     end
 
