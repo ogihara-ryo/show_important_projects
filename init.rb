@@ -4,9 +4,9 @@ end
 
 Redmine::Plugin.register :show_important_projects do
   name 'Show Important Projects plugin'
-  author 'Author name'
+  author 'Ogihara Ryo'
   description 'This is a plugin for Redmine'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  url ''
+  author_url ''
 end
