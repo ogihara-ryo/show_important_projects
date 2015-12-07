@@ -1,7 +1,7 @@
 # Redmine サンプルプラグイン
 
 ## 概要
-Qiita の [Advent Calendar 2015 Ruby on Rails](http://qiita.com/advent-calendar/2015/rails) における [Redmine プラグイン開発に学ぶパッチング作法](TODO: 投稿したら URL を貼る) の記事で使用するサンプルアプリケーションです。
+Qiita の [Advent Calendar 2015 Ruby on Rails](http://qiita.com/advent-calendar/2015/rails) における [Redmine プラグイン開発に学ぶパッチング作法](http://qiita.com/OgiharaRyo/items/b2ed27d886548fed8864) の記事で使用するサンプルアプリケーションです。
 
 
 ## 環境
