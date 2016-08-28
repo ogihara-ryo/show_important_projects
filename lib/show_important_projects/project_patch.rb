@@ -10,11 +10,11 @@ module ShowImportantProjects
       safe_attributes :important_project_attributes
       accepts_nested_attributes_for :important_project
 
-      scope :importants, -> { joins(:important_project).where(important_projects: { is_important: true }) }
+      scope :importants, -> { joins(:important_project).where(important_projects: { important: true }) }
     end
 
     def important?
-      important_project.try(:is_important?)
+      important_project.try(:important?)
     end
   end
 end
